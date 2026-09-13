@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Мой первый сайт</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="#main">Головна </a></li>
+                <li><a href="#stack">Стек</a></li>
+                <li><a href="#project">Проєкти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="main" id = "main">
+                <div>
+                    <p><strong>Ім'я</strong>: Клейменов Дмитро Іванович</p>
+                    <div class = "info"><p>Software Developer / FullStack & Python</p></div>
+                    <p>Спеціалізуюсь на розробці асинхронних RESTful API, базах даних (PostgreSQL) 
+            та алгоритмічній оптимізації.</p>
+            <p>Закінчив Сумський державний університет, де здобув вищу освіту за спеціальністю «Інформаційні технології проектування».</p>
+                    <a href="https://t.me/dim123451" class="btn">Telegram</a>
+                </div>
+                <div>
+                    <img src="images/test.jpg">
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="title">
+                <img src="images/stack.png" alt="stack">
+                <h2 id="stack">Стек</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-tag">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-tag">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" >
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-tag">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" >
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-tag">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="skill-tag">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" >
+                    <span>PostgreSQL</span>
+                </div>
+                <div class="skill-tag">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" >
+                    <span>FastAPI</span>
+                </div>
+                <div class="skill-tag">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg" alt="SQLAlchemy" >
+                    <span>SQLAlchemy</span>
+                </div>
+                <div class="skill-tag">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                    <span>Git</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="project" class="project-section">
+            <div class="title">
+                <img src="images/folder.png" alt="stack">
+                <h2 id="project">Проєкти</h2>
+            </div>
+            <div class="project-grid">
+                <div class="project-tag">
+                    <img class ="image-project" src="images/scooter.png" alt="Git">
+                    <span class="title"><b>Scooter-API</b></span>
+                    <span class="stack">FastAPI, SQLAlchemy 2.0 (Asyncio), PostgreSQL, Alembic, Pydantic</span>
+                    <span class="info">Асинхронний RESTful API для сервісу шерингу електросамокатів</span>
+                    <a href="https://github.com/ADernRa/Scooter-API" class="btn-git" target="_blank">GitHub репозиторій</a>
+                </div>
+                <div class="project-tag">
+                    <img class ="image-project" src="images/site.png" alt="Git">
+                    <span class="title"><b>VisitSite</b></span>
+                    <span class="stack">HTML, CSS</span>
+                    <span class="info">Адаптивний інтерактивний сайт-візитка</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    <div class="footer-content">
+        <span class="footer-logo">DK • Розробник • Вчусь • Створюю</span>
+        <div class="footer-links">
+            <a href="https://github.com/ADernRa" target="_blank">GitHub</a>
+            <a href="https://t.me/dim123451" target="_blank">Telegram</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
